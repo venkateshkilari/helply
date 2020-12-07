@@ -1,0 +1,153 @@
+{
+    "BookYourCleaning":{
+        "root":{
+            "document":"Book_Your_Cleaning",
+            "header":"Book your Cleaning",
+            "headerDescription":"Its time to book our cleaning service for your home or apartment.",
+            "serviceTimeDropDownData": [
+              {
+                "value": "6:00 AM",
+                "text": "6:00 AM"
+              },
+              {
+                "value": "6:30 AM",
+                "text": "6:30 AM"
+              },
+              {
+                "value": "7:00 AM",
+                "text": "7:00 AM"
+              },
+              {
+                "value": "7:30 AM",
+                "text": "7:30 AM"
+              },
+              {
+                "value": "8:00 AM",
+                "text": "8:00 AM"
+              },
+              {
+                "value": "8:30 AM",
+                "text": "8:30 AM"
+              },
+              {
+                "value": "9:00 AM",
+                "text": "9:00 AM"
+              },
+              {
+                "value": "9:30 AM",
+                "text": "9:30 AM"
+              },
+              {
+                "value": "10.00 AM",
+                "text": "10:00 AM"
+              },
+              {
+                "value": "10:30 AM",
+                "text": "10:30 AM"
+              },
+              {
+                "value": "11:00 AM",
+                "text": "11:00 AM"
+              },
+              {
+                "value": "11:30 AM",
+                "text": "11:30 AM"
+              },
+              {
+                "value": "12:00 PM",
+                "text": "12:00 PM"
+              },
+              {
+                "value": "12:30 PM",
+                "text": "12:30 PM"
+              },
+              {
+                "value": "1:00 PM",
+                "text": "1:00 PM"
+              },
+              {
+                "value": "1:30 PM",
+                "text": "1:30 PM"
+              },
+              {
+                "value": "2:00 PM",
+                "text": "2:00 PM"
+              },
+              {
+                "value": "2:30 PM",
+                "text": "2:30 PM"
+              },
+              {
+                "value": "3:00 PM",
+                "text": "3:00 PM"
+              },
+              {
+                "value": "3:30 PM",
+                "text": "3:30 PM"
+              },
+              {
+                "value": "4:00 PM",
+                "text": "4:00 PM"
+              },
+              {
+                "value": "4:30 PM",
+                "text": "4:30 PM"
+              },
+              {
+                "value": "5:00 PM",
+                "text": "5:00 PM"
+              },
+              {
+                "value":  "5:30 PM",
+                "text": "5:30 PM"
+              },
+              {
+                "value":"6:00 PM",
+                "text": "6:00 PM"
+              }
+            ],
+            "oneTimeServicesList":[
+              { "id":"oneTimeServicesmopping", "name":"Mopping","type":"oneTime", "text": "Mopping","rate":10, "status": false },
+              { "id":"oneTimeServicesdusting",  "name":"Dusting","type":"oneTime","text": "Dusting", "rate":10,"status": false },
+              { "id":"oneTimeServicescleanFridge", "name":"FridgeCleaning", "type":"oneTime","text": "Clean Fridge","rate":10, "status": true },
+              { "id":"oneTimeServicesironing", "name":"Ironing", "type":"oneTime","text": "Ironing", "rate":10,"status": true },
+              { "id":"oneTimeServicesBathroom","name":"BathroomCleaning",  "type":"oneTime","text": "Bathroom Cleaning", "rate":10,"status": true }
+            ],
+            "weeklyServicesList":[
+              { "id":"weeklyServicesmopping", "name":"Mopping","type":"weekly", "text": "Mopping", "rate":10,"status": false },
+              { "id":"weeklyServicesdusting",   "name":"Dusting","type":"weekly","text": "Dusting", "rate":10,"status": false },
+              { "id":"weeklyServicescleanFridge", "name":"FridgeCleaning", "type":"weekly", "text": "Clean Fridge","rate":10, "status": true },
+              { "id":"weeklyServicesironing",  "name":"Ironing", "type":"weekly","text": "Ironing", "rate":10,"status": true },
+              { "id":"weeklyServicesBathroom", "name":"BathroomCleaning",  "type":"weekly","text": "Bathroom Cleaning", "rate":10,"status": true }
+            ],
+            "biWeeklyServicesList":[
+              { "id":"biWeeklyServicesmopping", "name":"Mopping", "type":"fortnightly","text": "Mopping","rate":10, "status": false },
+              { "id":"biWeeklyServicesdusting",  "name":"Dusting", "type":"fortnightly","text": "Dusting", "rate":10,"status": false },
+              { "id":"biWeeklyServicescleanFridge", "name":"FridgeCleaning", "type":"fortnightly", "text": "Clean Fridge", "rate":10,"status": true },
+              { "id":"biWeeklyServicesironing",  "name":"Ironing", "type":"fortnightly","text": "Ironing","rate":10, "status": true },
+              { "id":"biWeeklyServicesBathroom", "name":"BathroomCleaning",  "type":"fortnightly","text": "Bathroom Cleaning", "rate":10,"status": true }
+            ],
+            "dailyServicesList":[
+              { "id":"dailyServicesmopping", "name":"Mopping", "type":"daily","text": "Mopping", "rate":10,"status": false },
+              { "id":"dailyServicesdusting",  "name":"Dusting", "type":"daily","text": "Dusting","rate":10, "status": false },
+              { "id":"dailyServicescleanFridge",  "name":"FridgeCleaning","type":"daily", "text": "Clean Fridge", "rate":10,"status": true },
+              { "id":"dailyServicesironing",  "name":"Ironing", "type":"daily","text": "Ironing","rate":10, "status": true },
+              { "id":"dailyServicesBathroom",  "name":"BathroomCleaning", "type":"daily","text": "Bathroom Cleaning", "rate":10,"status": true }
+            ],
+            "alternateTimesServicesList":[
+              { "id":"alternateTimesServicesmopping","name":"Mopping", "type":"alternate", "text": "Mopping", "rate":10,"status": false },
+              { "id":"alternateTimesServicesdusting",  "name":"Dusting", "type":"alternate","text": "Dusting","rate":10, "status": false },
+              { "id":"alternateTimesServicescleanFridge",  "name":"FridgeCleaning", "type":"alternate","text": "Clean Fridge", "rate":10,"status": true },
+              { "id":"alternateTimesServicesironing",  "name":"Ironing", "type":"alternate","text": "Ironing","rate":10, "status": true },
+              { "id":"alternateTimesServicesBathroom","name":"BathroomCleaning",   "type":"alternate","text": "Bathroom Cleaning", "rate":10,"status": true }
+            ],
+            "Frequency":{
+              "onetime":"oneTime",
+              "weekly":"weekly",
+              "biWeekly":"biWeekly",
+              "daily":"daily",
+              "alternate":"alternate"
+            }
+        }
+    }
+}

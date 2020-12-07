@@ -1,0 +1,38 @@
+{
+    "Id": "",
+    "UserId": "",
+    "ServiceProvider": {
+        "DisplayName": "ServiceProvider",
+        "Email": "ServiceProvider@helply.in"
+    },
+    "User": {
+        "FirstName": "",
+        "LastName": "",
+        "Email": "",
+        "PhoneNumber": "",
+        "Address": []
+    },
+    "ServiceTime": "",
+    "PaymentDetails": {
+        "Id": "",
+        "Amount": 0
+    },
+    "ServiceConfiguration": {
+        "CleaningConfiguration": {
+            "StartDate": "",
+            "EndDate": "",
+            "Timing": "",
+            "Frequency": "",
+            "Parameter": "",
+            "Services": ""
+        }
+    },
+    "ServiceType":{
+        "Mopping":false,
+        "Dusting":false,
+        "FridgeCleaning":false,
+        "Ironing":false,
+        "BathroomCleaning":false
+
+    }
+}

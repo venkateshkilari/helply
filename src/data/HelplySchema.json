@@ -1,0 +1,36 @@
+{
+    "orderDetails": [
+        {
+            "image": "https://avatars3.githubusercontent.com/u/499550?s=52&v=4",
+            "name": "Deep Cleaning for One Time",
+            "cost": 220,
+            "status": "Done"
+        },
+        {
+            "image": "https://avatars3.githubusercontent.com/u/499550?s=52&v=4",
+            "name": "Deep Cleaning for One Time",
+            "cost": 110,
+            "status": "In-Process"
+        }
+    ],
+    "leftMenu": {
+        "headerName": "",
+        "tabMenu": [
+            {
+                "name": "Pofile",
+                "leftTabIcon": "fa fa-user-circle",
+                "link": "/User/Profile"
+            },
+            {
+                "name": "Orders",
+                "leftTabIcon": "fa fa-first-order",
+                "link": "/User/order"
+            },
+            {
+                "name": "Address",
+                "leftTabIcon": "fa fa-home",
+                "link": "/User/Address"
+            }
+        ]
+    }
+}

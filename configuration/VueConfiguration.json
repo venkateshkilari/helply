@@ -1,0 +1,10 @@
+{
+    "NodeEnvironment": "production",
+    "ProductionEnvironment": "production",
+    "ProductionURL": "/Content/",
+    "DevelopmentURL": "/App_UI/vueapp/dist/",
+    "ProdutionOutputPath": "../../Content",
+    "DevelopmentOutputPath": "dist",
+    "Filename": "MinuteMaids.min.js",
+    "LibraryTarget": "window"
+}
